@@ -52,6 +52,7 @@ func play_animation(moving = false,right= false,jump = false):
 			$AnimatedSprite.flip_h = false
 		else:
 			#$AnimatedSprite.flip_h = true
+			
 			pass
 		if isonfloor:
 			if run > 1:
