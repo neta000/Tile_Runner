@@ -72,11 +72,6 @@ animations = [ {
 "name": "idle",
 "speed": 15.0
 }, {
-"frames": [ ExtResource( 32 ), ExtResource( 43 ), ExtResource( 65 ), ExtResource( 69 ), ExtResource( 73 ), ExtResource( 70 ), ExtResource( 74 ), ExtResource( 71 ), ExtResource( 72 ), ExtResource( 66 ), ExtResource( 76 ), ExtResource( 67 ), ExtResource( 75 ), ExtResource( 64 ), ExtResource( 68 ) ],
-"loop": true,
-"name": "walk",
-"speed": 15.0
-}, {
 "frames": [ ExtResource( 35 ), ExtResource( 62 ), ExtResource( 55 ), ExtResource( 38 ), ExtResource( 58 ), ExtResource( 50 ), ExtResource( 63 ), ExtResource( 60 ), ExtResource( 41 ), ExtResource( 59 ), ExtResource( 48 ), ExtResource( 39 ), ExtResource( 51 ), ExtResource( 61 ), ExtResource( 42 ) ],
 "loop": true,
 "name": "run",
@@ -85,6 +80,11 @@ animations = [ {
 "frames": [ ExtResource( 44 ), ExtResource( 37 ), ExtResource( 52 ), ExtResource( 57 ), ExtResource( 33 ), ExtResource( 49 ), ExtResource( 40 ), ExtResource( 46 ), ExtResource( 34 ), ExtResource( 53 ), ExtResource( 54 ), ExtResource( 45 ), ExtResource( 56 ), ExtResource( 47 ), ExtResource( 36 ) ],
 "loop": true,
 "name": "jump",
+"speed": 15.0
+}, {
+"frames": [ ExtResource( 32 ), ExtResource( 43 ), ExtResource( 65 ), ExtResource( 69 ), ExtResource( 73 ), ExtResource( 70 ), ExtResource( 74 ), ExtResource( 71 ), ExtResource( 72 ), ExtResource( 66 ), ExtResource( 76 ), ExtResource( 67 ), ExtResource( 75 ), ExtResource( 64 ), ExtResource( 68 ) ],
+"loop": true,
+"name": "walk",
 "speed": 15.0
 } ]
 
@@ -98,6 +98,7 @@ position = Vector2( 0, 0.412765 )
 scale = Vector2( 0.2, 0.2 )
 frames = SubResource( 1 )
 animation = "idle"
+frame = 6
 playing = true
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="KinematicBody2D"]
