@@ -16,8 +16,12 @@ _global_script_class_icons={
 [application]
 
 config/name="Tile_Runner"
-run/main_scene="res://mainmenu.tscn"
-config/icon="res://flatboy/Idle (3).png"
+run/main_scene="res://menu/mainmenu.tscn"
+config/icon="res://flatboy/images/Idle (3).png"
+
+[audio]
+
+default_bus_layout=""
 
 [display]
 
